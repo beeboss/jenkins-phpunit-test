@@ -1,0 +1,7 @@
+jenkins test worden niet uitgevoerd,
+
+denk dat dir ontbreekt? zie apetails
+
+[jenkins-phpunit-test] $ /bin/sh -xe /tmp/jenkins6374635246847229577.sh
++ phpunit --log-junit results/phpunit/phpunit.xml -c tests/phpunit.xml   <--- @@@@
+PHPUnit 5.4.6 by Sebastian Bergmann and contributors.
