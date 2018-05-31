@@ -12,7 +12,8 @@ class migTest extends PHPUnit_Framework_TestCase
         $this->gumballMachineInstance = new GumballMachine();
     }
 
-    public function migtestOne(){
+    public function turnWheel(){
+         //...
 	 $this->gumballMachineInstance->setGumballs(1000);
 
 	 // turn the wheel a number of times...
@@ -20,6 +21,7 @@ class migTest extends PHPUnit_Framework_TestCase
 	 $this->gumballMachineInstance->turnWheel();
 	 $this->gumballMachineInstance->turnWheel();
 
+         //....
 	 $this->assertEquals(997, $this->gumballMachineInstance->getGumballs());
     }
 }
